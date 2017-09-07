@@ -11,7 +11,9 @@
 	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+	<!-- 빈 설정을 annotion기반으로 하겠다. -->
 	<context:annotation-config />
+	
+	<!--  scanning 할 기준 패키지 -->
 	<context:component-scan base-package="com.bigdata2017.springex.controller" />
-
 </beans>
